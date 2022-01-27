@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-27T03:08:22.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2113273700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBGcolor.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "1 Sky Blue Background",
+        "description": "",
+        "id": "the-background-color-should-be-set-as-skyblue-color;1-sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 672412000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBGcolor.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 772089200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "SetBGcolor.Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2067489200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "SetBGcolor.When_I_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36159200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "SetBGcolor.Then_the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bhumi"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-27T03:08:28.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1250856600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBGcolor.beforeRun()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "2 White Background Change",
+        "description": "",
+        "id": "the-background-color-should-be-set-as-skyblue-color;2-white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 676209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetBGcolor.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 828872000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "SetBGcolor.Set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4110189200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the Set white button",
+            "match": {
+              "location": "SetBGcolor.I_click_on_the_Set_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35555500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "SetBGcolor.Then_the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bhumi"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "The background color should be set as skyblue color",
+    "description": "",
+    "id": "the-background-color-should-be-set-as-skyblue-color",
+    "keyword": "Feature",
+    "uri": "classpath:features/SetBackgroundColor.feature",
+    "tags": [
+      {
+        "name": "@bhumi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
